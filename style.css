@@ -1,0 +1,99 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #C4BDC5;
+    position: fixed;
+    height: 5vh;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+#main {
+    min-height: 95vh;
+    background-color: #00807F;
+}
+
+ul {
+    padding: 0%;
+    margin: 0;
+    list-style: none;
+}
+
+#aboutme {
+    margin: 10vh;
+    height: 70vh;
+    width: 50vw;
+    float: right;
+    border: 1px solid;
+    border-color: rgb(207,208,200);
+    border-bottom-color: #3b3b3b;
+    border-right-color: #3b3b3b;
+    background-color: rgb(207,208,200);
+    box-shadow: inset 1px 1px 0 whitesmoke, inset -1px -1px 0 #808080;
+}
+
+#start {
+    float: left;
+    border: 2px solid black;
+    width: 3em;
+}
+
+#time {
+    text-align: right;
+    border: 2px solid black;
+    width: 3em;
+    float: right;
+}
+
+#links {
+float:left;
+}
+
+#links li {
+    width: 4em;
+    height: 4em;
+    border: 1px solid black;
+    padding: 25%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#headerbar {
+    background-image: linear-gradient(to right,#050067 , #0F83CC);
+    display: block;
+    color: white;
+    height: 4%
+}
+
+#headerbar h1 {
+    font-weight: normal;
+    font: helvetica;
+    margin: 0;
+    padding: 0.1em;
+    float: left;
+}
+
+#headerbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#headerbar ul li {
+    float: right;
+}
+
+#aboutmemain {
+    background: white;
+    display: block;
+    height: 92%;
+    width:  99%;
+    font-family: "Courier New";
+}
