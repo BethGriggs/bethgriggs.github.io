@@ -5,10 +5,8 @@ body {
 }
 
 footer {
-    background-color: #C4BDC5;
+    background-color: rgb(207, 208, 200);
     position: fixed;
-    height: 5vh;
-    left: 0;
     bottom: 0;
     width: 100%;
     color: black;
@@ -16,7 +14,7 @@ footer {
 }
 
 #main {
-    min-height: 95vh;
+    min-height: 100vh;
     background-color: #00807F;
 }
 
@@ -31,29 +29,24 @@ ul {
     height: 70vh;
     width: 50vw;
     float: right;
-    border: 1px solid;
-    border-color: rgb(207,208,200);
-    border-bottom-color: #3b3b3b;
-    border-right-color: #3b3b3b;
-    background-color: rgb(207,208,200);
-    box-shadow: inset 1px 1px 0 whitesmoke, inset -1px -1px 0 #808080;
+    background-color: rgb(207, 208, 200);
 }
 
 #start {
     float: left;
-    border: 2px solid black;
-    width: 3em;
+    margin-left: 0.1em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
 }
 
 #time {
     text-align: right;
-    border: 2px solid black;
     width: 3em;
     float: right;
 }
 
 #links {
-float:left;
+    float: left;
 }
 
 #links li {
@@ -66,7 +59,7 @@ float:left;
 }
 
 #headerbar {
-    background-image: linear-gradient(to right,#050067 , #0F83CC);
+    background-image: linear-gradient(to right, #050067, #0F83CC);
     display: block;
     color: white;
     height: 4%
@@ -84,16 +77,68 @@ float:left;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 #headerbar ul li {
     float: right;
+    margin: 0.1em;
+}
+
+#headerbar ul li i {
+    background: rgb(207, 208, 200);
+    color: black;
+    height: 50%;
 }
 
 #aboutmemain {
     background: white;
     display: block;
-    height: 92%;
-    width:  99%;
+    height: 91%;
+    width: 98%;
     font-family: "Courier New";
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+#optionsbar {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    height: 4%;
+}
+
+#optionsbar li {
+    float: left;
+    padding: 0.3em;
+    font: helvetica;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+
+.classic-border {
+    border: 1px solid;
+    border-color: rgb(207, 208, 200);
+    border-bottom-color: #3b3b3b;
+    border-right-color: #3b3b3b;
+    background-color: rgb(207, 208, 200);
+    box-shadow: inset 1px 1px 0 whitesmoke, inset -1px -1px 0 #808080;
+}
+
+.social {
+    float: left;
+    padding: 0.2%;
+}
+
+.github a {
+    color: black;
+}
+
+.twitter a {
+    color: #00aced;
+}
+
+.linkedin a {
+   color: #0072bb
 }
