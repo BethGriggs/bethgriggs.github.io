@@ -57,14 +57,14 @@ ul {
     margin-left: 5%;
 }
 
-#headerbar {
+.headerbar {
     background-image: linear-gradient(to right, #050067, #0F83CC);
     display: block;
     color: white;
-    height: 4%
+    height: 22px;
 }
 
-#headerbar h1 {
+.headerbar h1 {
     font-weight: normal;
     font: helvetica;
     margin: 0;
@@ -72,19 +72,19 @@ ul {
     float: left;
 }
 
-#headerbar ul {
+.headerbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
-#headerbar ul li {
+.headerbar ul li {
     float: right;
     margin: 0.1em;
 }
 
-#headerbar ul li i {
+.headerbar ul li i {
     background: rgb(207, 208, 200);
     color: black;
     height: 50%;
@@ -101,14 +101,14 @@ ul {
     margin-top: 0.5%;
 }
 
-#optionsbar {
+.optionsbar {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    height: 4%;
+    height: 20px;
 }
 
-#optionsbar li {
+.optionsbar li {
     float: left;
     padding: 0.3em;
     font: helvetica;
@@ -149,4 +149,21 @@ ul {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
+}
+
+#wmp {
+    margin: 10vh;
+    height: 55vh;
+    width: 20vw;
+    float: right;
+    background-color: rgb(207, 208, 200);
+}
+
+.albumart {
+    width: 97%;
+    padding: 1.5%;
+}
+
+.track {
+    text-align: center;
 }
