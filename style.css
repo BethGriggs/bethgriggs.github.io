@@ -112,7 +112,7 @@ ul {
     box-shadow: inset 1px 1px 0 whitesmoke, inset -1px -1px 0 #808080;
 }
 
-/* Social */ 
+/* Social */
 .social {
     float: left;
     padding: 0.2%;
@@ -139,14 +139,13 @@ ul {
     user-select: none;
 }
 
-/* Media Player */ 
+/* Media Player */
 
 .media-player {
     margin: 10vh;
-    height: 55vh;
     width: 20vw;
-    float: right;
     background-color: rgb(207, 208, 200);
+    display: inline-block;
 }
 
 .album-art {
@@ -157,3 +156,20 @@ ul {
 .track {
     text-align: center;
 }
+
+.controls i {
+    color: #808080;
+}
+
+.controls {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+}
+
+.controls li {
+    display: inline;
+    padding: 0.3em;
+}
+
