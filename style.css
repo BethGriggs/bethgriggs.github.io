@@ -49,6 +49,7 @@ ul {
     display: block;
     color: white;
     height: 22px;
+    cursor: move;
 }
 
 .headerbar h1 {
@@ -75,6 +76,7 @@ ul {
     background: rgb(207, 208, 200);
     color: black;
     height: 50%;
+    cursor: default;
 }
 
 .text-content {
