@@ -172,6 +172,21 @@ ul {
 
 .controls li {
     display: inline;
-    padding: 0.3em;
+    padding: 0.4em;
 }
 
+/* Shortcuts */
+
+.shortcut {
+    color: white;
+    padding: 0.5em;
+    position: absolute;
+    text-align: center;
+    font: helvetica;
+    font-size: 0.9em;
+}
+
+.shortcut a {
+    color: white;
+    text-decoration: none;
+}
